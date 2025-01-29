@@ -11,7 +11,7 @@ COPY package*.json ./
 RUN npm install
 
 # copy environment variables 
-COPY .env ./
+# COPY .env ./
 
 # Copy the application code to the container
 COPY . .
